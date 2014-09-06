@@ -239,7 +239,7 @@
 				LastUpgradeCheck = 0500;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
-						DevelopmentTeam = L527N68YVE;
+						DevelopmentTeam = 2DU9WX9Z6N;
 					};
 				};
 			};
@@ -308,14 +308,15 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = entitlements.plist;
 				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = "";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Chaowang Zhang (JQPDQJAGUB)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = SocksProxy_Prefix.pch;
 				INFOPLIST_FILE = Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_CFLAGS = "-DDEBUG";
 				PRODUCT_NAME = Tethering;
-				PROVISIONING_PROFILE = "F7833829-0080-47FB-8D4D-CDD1899D91CB";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -327,8 +328,8 @@
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = "";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Chaowang Zhang (JQPDQJAGUB)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = SocksProxy_Prefix.pch;
 				INFOPLIST_FILE = Resources/Info.plist;
@@ -336,7 +337,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "";
 				PRODUCT_NAME = Tethering;
-				PROVISIONING_PROFILE = "F7833829-0080-47FB-8D4D-CDD1899D91CB";
+				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -371,7 +372,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-DDEBUG";
 				PREBINDING = NO;
-				PROVISIONING_PROFILE = "F7833829-0080-47FB-8D4D-CDD1899D91CB";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				WARNING_CFLAGS = (
 					"-Wall",
@@ -411,7 +412,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-DDEBUG";
 				PREBINDING = NO;
-				PROVISIONING_PROFILE = "F7833829-0080-47FB-8D4D-CDD1899D91CB";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				WARNING_CFLAGS = (
 					"-Wall",
